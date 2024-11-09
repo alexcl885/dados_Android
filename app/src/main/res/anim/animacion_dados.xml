@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/bounce_interpolator">
+
+    <!-- Caída con rebote -->
+    <translate
+        android:fromYDelta="-500%"
+        android:toYDelta="0%"
+        android:duration="1000" />
+
+    <!-- Rotación -->
+    <rotate
+        android:fromDegrees="0"
+        android:toDegrees="720"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="1000" />
+
+    <!-- Ligero desplazamiento horizontal -->
+    <translate
+        android:fromXDelta="-10%"
+        android:toXDelta="10%"
+        android:duration="1000" />
+
+    <!-- Escala para simular el "aterrizaje" -->
+    <scale
+        android:fromXScale="0.8"
+        android:toXScale="1.0"
+        android:fromYScale="0.8"
+        android:toYScale="1.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="300"
+        android:startOffset="700" />
+</set>

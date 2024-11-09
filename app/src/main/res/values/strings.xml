@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dados_Android</string>
+
+    <string name="nombre_fichero_preferencia_compartida">nombre_fichero_preferencia_compartida</string>
+</resources>
